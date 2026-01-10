@@ -1,0 +1,21 @@
+[project]
+name = "otel-python"
+version = "0.1.0"
+description = "An small FastAPI app to showcase OTEL principles and implementation"
+authors = [
+    { name = "Roberto Jose Garcia Navarro", email = "info@soulcodex.es" }
+]
+requires-python = ">=3.14"
+dependencies = [
+    "fastapi[standard-no-fastapi-cloud-cli]>=0.128.0",
+    "opentelemetry-exporter-otlp>=1.39.1",
+    "opentelemetry-exporter-otlp-proto-grpc>=1.39.1",
+    "opentelemetry-exporter-otlp-proto-http>=1.39.1",
+    "opentelemetry-exporter-prometheus>=0.60b1",
+    "opentelemetry-instrumentation-fastapi>=0.60b1",
+    "opentelemetry-instrumentation-logging>=0.60b1",
+    "opentelemetry-sdk>=1.39.1",
+    "orjson>=3.11.5",
+    "pydantic-extra-types>=2.10.6",
+    "pydantic-settings>=2.12.0",
+]

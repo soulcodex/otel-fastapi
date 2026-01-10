@@ -1,0 +1,48 @@
+# =========================
+# Default behavior
+# =========================
+* text=auto eol=lf
+
+# =========================
+# Images (binary)
+# =========================
+*.png   binary
+*.jpg   binary
+*.jpeg  binary
+*.gif   binary
+*.webp  binary
+*.bmp   binary
+*.tiff  binary
+*.ico   binary
+*.svg   -text   # SVG is XML but often safer as binary
+
+# =========================
+# Fonts
+# =========================
+*.ttf   binary
+*.otf   binary
+*.woff  binary
+*.woff2 binary
+
+# =========================
+# Archives
+# =========================
+*.zip   binary
+*.tar   binary
+*.gz    binary
+*.7z    binary
+*.rar   binary
+
+# =========================
+# Media
+# =========================
+*.mp4   binary
+*.mov   binary
+*.mp3   binary
+*.wav   binary
+*.ogg   binary
+
+# =========================
+# PDFs
+# =========================
+*.pdf   binary
