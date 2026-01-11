@@ -5,6 +5,7 @@ help:
 # Generate the talk slides from Markdown
 generate_slides:
     marp --input-dir ./.etc/slides --pdf --allow-local-files
+    marp --input-dir ./.etc/slides --html --allow-local-files
 
 # Watch for changes and regenerate slides automatically
 watch_slides:

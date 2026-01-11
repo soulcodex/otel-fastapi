@@ -406,3 +406,7 @@ def get_metrics(response: Response):
 
 - Thank you for your attention!
 - Any questions?
+---
+## Get the source code
+
+<center><img src="qr.png" height="500px" /></center>
