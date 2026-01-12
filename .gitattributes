@@ -14,7 +14,7 @@
 *.bmp   binary
 *.tiff  binary
 *.ico   binary
-*.svg   -text   # SVG is XML but often safer as binary
+*.svg   -text
 
 # =========================
 # Fonts
