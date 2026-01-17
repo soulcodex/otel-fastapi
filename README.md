@@ -38,3 +38,7 @@ To stop the application and all related services, run:
 ```bash
 just down
 ```
+
+### 🖼️ Slides:
+
+You can grab the presentations slides used during the talk [here](./.etc/slides) (PDF, Markdown and HTML available).
