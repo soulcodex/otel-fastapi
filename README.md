@@ -9,6 +9,7 @@
 - Python 3.14+
 - uv
 - just (see the top-level `justfile` for available commands)
+- marp-cli (Optional, for rendering markdown as slides)
 - Docker (docker & docker-compose / Docker Compose v2)
 
 ---

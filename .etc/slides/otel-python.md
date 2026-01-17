@@ -7,7 +7,7 @@ footer: Implementing OTEL in FastAPI
 <!-- paginate: false -->
 # Implementing OTEL in FastAPI
 
-##### A brief introduction to OTEL and how to instrument a FastAPI applications.
+##### A brief introduction to OTEL and how to instrument FastAPI applications.
 
 ---
 ## Who am I ❓
@@ -95,6 +95,7 @@ footer: Implementing OTEL in FastAPI
 - **Cardinality Reduction**: Helps in reducing the number of unique metric names and labels, making it easier to manage and analyze metrics.
 - more...
 
+---
 ## OTEL components
 
 - **API**: Defines the interfaces for collecting telemetry data.
@@ -134,7 +135,7 @@ footer: Implementing OTEL in FastAPI
 - Logs are collected through a pull-based strategy.
 - Metrics and traces are collected through a push-based strategy.
 - The OTEL Collector acts as a central hub for processing and exporting telemetry data.
-- Those data is then sent to a backend observability platform like Grafana
+- Data is sent to a backend observability platform such as Grafana
 - Correlation between logs, metrics, and traces is achieved through consistent use of trace IDs and span IDs.
 
 ---
